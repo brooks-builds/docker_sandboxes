@@ -282,8 +282,7 @@ By the end of this course, you will be able to
   - [x] Add a network for a specific sandbox
   - [x] remove a network globally
   - [x] Remove a network for a specific sandbox
-- [ ] Git Management
+- [x] Git Management
   - [x] Describe what the harness can do in a git repo by default
-  - [ ] Use the `--clone` flag to clone the repo into the sandbox
-  - [ ] Pull in changes from a cloned sandbox
-  - [ ] Use a work tree in a sandbox
+  - [x] Use the `--clone` flag to clone the repo into the sandbox
+  - [x] Pull in changes from a cloned sandbox
