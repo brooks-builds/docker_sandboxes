@@ -238,70 +238,52 @@ export SBX_NO_TELEMETRY=1
 By the end of this course, you will be able to
 
 - [x] Introduction
-  - [x] What is the problem with running AI harnesses in containers
-    - If the harness is writing code, we have to treat that code as unknown.
-    - Containers aren't safe to run unknown code
-  - [x] Two solutions
-    - Complete isolation (run your harness on a different computer)
-    - Virtual machines (best of both worlds)
-  - [x] Describe What Docker Sandboxes Are
-    - Program wrapping around hypervisor technology to manage virtual machines as easily as Docker did for containers
-  - [x] Describe Why Running AI Harnesses in Sandboxes Is a Good Idea.
-    - Very fast to launch and get started with
-    - Easy to introduce teams and others to
-  - [x] Notes
-    - Docker sandboxes has a more compelling use-case for Macs since spinning up VM's on Apple devices are not as easy as Windows and Linux
-- [ ] Installing
-  - [ ] Install Docker sandboxes on a Mac
-  - [ ] install Docker sandboxes on Linux
-  - [ ] install Docker sandboxes on Windows
-  - [ ] Choose a network policy that works for your
-  - [ ] Set up autocompletions in your Linux/mac shell
-  - [ ] Set up autocompletions in your Windows shell
-  - [ ] Reset sandboxes to factory default with the `sbx reset` command
-  - [ ] Opt out of sandbox telemetry
-- [ ] Creating a sandbox
-  - [ ] Create a sandbox for your harness of choice
-  - [ ] Create a sandbox with multiple directories mounted
-  - [ ] Create a sandbox with multiple directories mounted with some read only
-  - [ ] Create a shell sandbox to set up your custom harness
-  - [ ] Create a sandbox with a custom name
-- [ ] Secrets
-  - [ ] Describe why we want to use the secrets command
-  - [ ] set a global secret
-  - [ ] set a secret for a specific sandbox
-  - [ ] delete a global secret
-  - [ ] Delete a secret for a specific sandbox
-- [ ] Ports
-  - [ ] Expose ports to/from a sandbox
-  - [ ] Remove exposed ports to/from a sandbox
-  - [ ] Expose ports on the host to the sandbox
-- [ ] Sandbox management
-  - [ ] Create a sandbox with the create command
-  - [ ] start a stopped sandbox
-  - [ ] connect to a sandbox
-  - [ ] delete a sandbox
-  - [ ] Delete all sandboxes at the same time
-  - [ ] list all sandboxes
-  - [ ] TUI
-    - [ ] launch the TUI
-    - [ ] inspect sandboxes
-    - [ ] allow denied network traffic
-    - [ ] deny allowed network traffic
-    - [ ] connect to a sandbox
-    - [ ] Use exec to run a command on the sandbox
-    - [ ] Use exec to get an interactive shell on the sandbox
-  - [ ] Copy a file to a sandbox from your host
-  - [ ] Copy a file from a sandbox to your host
-  - [ ] Inspect sandboxes with the `inspect` command
-- [ ] Network
-  - [ ] view the network rules
-  - [ ] add a network globally
-  - [ ] Add a network for a specific sandbox
-  - [ ] remove a network globally
-  - [ ] Remove a network for a specific sandbox
+- [x] Installing
+  - [x] Choose a network policy that works for your
+  - [x] Set up autocompletions in your Linux/mac shell
+  - [x] Reset sandboxes to factory default with the `sbx reset` command
+  - [x] Opt out of sandbox telemetry
+- [x] Creating a sandbox
+  - [x] Create a sandbox for your harness of choice
+  - [x] Create a sandbox with multiple directories mounted
+  - [x] Create a sandbox with multiple directories mounted with some read only
+  - [x] Create a shell sandbox to set up your custom harness
+  - [x] Create a sandbox with a custom name
+- [x] Secrets
+  - [x] Describe why we want to use the secrets command
+  - [x] set a global secret
+  - [x] set a secret for a specific sandbox
+  - [x] Delete a secret for a specific sandbox
+  - [x] delete a global secret
+- [x] Ports
+  - [x] Expose ports to/from a sandbox
+  - [x] Remove exposed ports to/from a sandbox
+  - [x] Expose ports on the host to the sandbox
+- [x] Sandbox management
+  - [x] Create a sandbox with the create command
+  - [x] connect to a sandbox
+  - [x] delete a sandbox
+  - [x] Delete all sandboxes at the same time
+  - [x] list all sandboxes
+  - [x] TUI
+    - [x] launch the TUI
+    - [x] inspect sandboxes
+    - [x] allow denied network traffic
+    - [x] deny allowed network traffic
+    - [x] connect to a sandbox
+    - [x] Use exec to run a command on the sandbox
+    - [x] Use exec to get an interactive shell on the sandbox
+  - [x] Copy a file to a sandbox from your host
+  - [x] Copy a file from a sandbox to your host
+  - [x] Inspect sandboxes with the `inspect` command
+- [x] Network
+  - [x] view the network rules
+  - [x] add a network globally
+  - [x] Add a network for a specific sandbox
+  - [x] remove a network globally
+  - [x] Remove a network for a specific sandbox
 - [ ] Git Management
-  - [ ] Describe what the harness can do in a git repo by default
+  - [x] Describe what the harness can do in a git repo by default
   - [ ] Use the `--clone` flag to clone the repo into the sandbox
   - [ ] Pull in changes from a cloned sandbox
   - [ ] Use a work tree in a sandbox
